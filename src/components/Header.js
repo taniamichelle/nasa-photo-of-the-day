@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
+import { StyledHeading, StyledButton } from './Style';
 
-function Header() {
+function Header(props) {
     const [appName, setAppName] = useState('');
 
     // useEffect(() => { console.log('first effect', title) });
 
-    // useEffect(() => { console.log('second effect', date) });
     return (
         <div className='header'>
-            <h1>NASA Photo of the Day</h1>
-            <button className='signInButton'>Sign In</button>
-            <button className='signUpButton'>Sign Up</button>
+            <StyledHeading><h1>🚀  NASA: Photo of the Day  🚀</h1></StyledHeading>
+            <StyledButton>
+                <button className='signInButton'>Sign In</button>
+                <button className='signUpButton'>Sign Up</button>
+            </StyledButton>
         </div>
     );
 }
