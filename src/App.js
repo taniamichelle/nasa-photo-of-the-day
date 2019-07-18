@@ -30,7 +30,7 @@ function App() {
       <div className='App'>
         <Logo />
         <StyledDiv><Header></Header></StyledDiv>
-        <h2>Check Out Today's Photo:</h2>
+        {/* <h2>Check Out Today's Photo:</h2> */}
         {/* pass data to photocard via props */}
         {/* {data
           ? <PhotoCard date={data.date}

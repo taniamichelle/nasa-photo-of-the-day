@@ -12,7 +12,7 @@ export const StyledDiv = styled.div`
 
 //styled p
 export const StyledP = styled.p`
-    color: blue
+    color: #e7e0e0;
 `;
 
 //styled h1
