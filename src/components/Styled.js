@@ -7,7 +7,13 @@ import styled from 'styled-components';
 
 //styled div
 export const StyledDiv = styled.div`
-    border: 2px solid yellow
+    border: 2px solid #e7e0e0;
+    width: 70%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 `;
 
 //styled p
@@ -15,9 +21,11 @@ export const StyledP = styled.p`
     color: #e7e0e0;
 `;
 
+//styled colors
+
 //styled h1
 export const StyledHeading = styled.h1`
-    color: white;
+  color: white;
 `;
 
 //styled button
@@ -33,7 +41,7 @@ export const StyledButton = styled.button`
 
 //styled container
 export const StyledContainer = styled.div`
-    background-color: darkblue;
+    background-color: black;
     margin-left: auto;
     margin-right: auto;
 `;

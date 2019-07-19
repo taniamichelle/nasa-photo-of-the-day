@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyledHeading, StyledButton } from './Style';
+import { StyledHeading, StyledButton } from './Styled';
 
 function Header(props) {
     const [appName, setAppName] = useState('');

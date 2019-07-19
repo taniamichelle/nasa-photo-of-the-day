@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import PhotoCard from './components/PhotoCard';
-import { StyledDiv, StyledContainer } from './components/Style';
+import { StyledDiv, StyledContainer } from './components/Styled';
 import Logo from './components/Logo';
 import axios from 'axios';
 
